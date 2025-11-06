@@ -1,0 +1,8 @@
+transformers
+datasets
+torch
+torchvision
+numpy
+matplotlib
+Pillow
+pycocotools
