@@ -114,8 +114,12 @@ Puedes ejecutar el archivo `.ipynb` en Google Colab para:
 
 Debido a limitaciones de tiempo y recursos computacionales, esta fase se centró exclusivamente en la segmentación palpebral. Las siguientes fases se trabajarán en paralelo:
 
-* **Fase 2: Desarrollo de una aplicación web**, donde los usuarios puedan subir su fotografía y recibir un análisis en tiempo real (desde celular o computadora).
-* **Fase 3: Recolección y validación con pacientes mexicanos**, incluyendo sus niveles de hemoglobina reales, con el fin de ajustar un modelo de regresión para estimar valores de hemoglobina directamente desde las imágenes segmentadas.
+* **Fase 2: Integración de modelos**, donde el modelo de segmentación se enlazará con el modelo de estimación de hemoglobina (best_xcpetion_model.h5) para obtener valores de hemoglobina a partir de la región segmentada.
+
+* **Fase 3: Desarrollo de la aplicación web**, que permitirá subir fotografías y obtener un análisis automático desde cualquier dispositivo.
+
+* **Fase 4: Validación con pacientes mexicanos**, contemplando niveles reales de hemoglobina bajo condiciones clínicas controladas. Esta etapa no se ejecutó por limitaciones de confidencialidad y tiempo, pero constituye la siguiente meta del proyecto.
+
 
 ---
 
