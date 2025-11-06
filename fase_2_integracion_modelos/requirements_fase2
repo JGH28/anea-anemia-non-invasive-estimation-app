@@ -1,0 +1,14 @@
+# Requerimientos para Fase 2 - Integración de modelos ANEA
+# Compatible con Python >= 3.10
+# Recomendado ejecutar en entorno local (no Google Colab)
+
+torch==2.9.0
+torchvision==0.18.0
+tensorflow==2.15.0
+keras==2.15.0
+transformers==4.57.1
+numpy==1.26.4
+matplotlib==3.8.4
+opencv-python==4.11.0
+pycocotools==2.0.7
+tqdm==4.66.4
